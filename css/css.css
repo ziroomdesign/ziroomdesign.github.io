@@ -115,12 +115,16 @@
         .example-box {
             position: relative; 
             padding: 10pt;
+            background-color: #fff;
+
             
         }
 
         .example-content-box {
             margin: 20pt;
             border-top: 2px solid #FF961E;
+
+
         }
 
         .example-img-box {
