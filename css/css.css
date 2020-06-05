@@ -9,7 +9,14 @@
         max-width: 800px;
         margin-bottom: 50px;
         line-height: 1.6em;
-        /*transition: all 0.5s;*/
+        }
+
+        .tmlcontent {
+        margin: 0 auto;
+        padding: 0 1em;
+        max-width: 1200px;
+        margin-bottom: 50px;
+        line-height: 1.6em;
         }
 
         .lcontent {
@@ -24,7 +31,6 @@
         margin: 0 auto;
         padding: 0 0em;
         max-width: 1500px;
-        margin-bottom: 50px;
         line-height: 1.6em;
         }
 
@@ -34,6 +40,12 @@
         max-width: 100%;
         margin-bottom: 50px;
         line-height: 1.6em;
+        }
+
+        .xl1600content {
+        margin: 0 auto;
+        padding: 0 0em;
+        max-width: 1600pt;
         }
 
         .headbarhover{
@@ -100,6 +112,72 @@
             color: #dddddd;
         }
 
+        .example-box {
+            position: relative; 
+            padding: 10pt;
+            
+        }
+
+        .example-content-box {
+            margin: 20pt;
+            border-top: 2px solid #FF961E;
+        }
+
+        .example-img-box {
+            text-align: center;
+            margin: 20pt;
+            padding: 10pt;
+        }
+
+        .example-contributor-box {
+            position: absolute; 
+            bottom: 0px; 
+            right: 0px; 
+            margin: 20pt; 
+            text-align: right;
+        }
+
+        .contributor-faceimg {
+            height: 35pt;
+            width: 35pt;
+        }
+
+
+        .th-box {
+            padding: 20pt;
+            border-left: 2px solid #FF961E;
+            margin-bottom: 20pt;
+            margin-top: 20pt;
+            height: 185pt;
+        }
+
+        .th-number {
+            color: #FF961E;
+            font-weight: 100;
+            font-size: 2em;
+        }
+
+        .language-img-box {
+            padding: 30pt;
+        }
+
+        .language-description-box {
+            height: 150pt;
+            padding-right: 20pt;
+        }
+
+        .color-brandorange {
+            color: #FF961E;
+        }
+
+        .intexta {
+            color: #333333;
+            text-decoration: underline;;
+
+
+        }
+
+
 /*header is h1*/
 
            h1{
@@ -112,12 +190,25 @@
         color: #333333;
             }
 
+/*Value Orange Word h2*/
+
+            h2{
+        font-family: arial, sans-serif;
+        font-size: 1.5em;
+        font-weight: 100;
+        letter-spacing: 0em;
+        word-spacing: 0em;
+        line-height: 1.6em;
+        color: #333333;
+            }
+
+/*Extra Big*/
+
     	   h3{
         font-family: arial, sans-serif;
-        font-size: 1em;
-        font-weight: 100;
-        letter-spacing: 0.2em;
-        word-spacing: 0em;
+        font-size: 4em;
+/*        font-weight: medium;*/
+/*        word-spacing: 0em;*/
         line-height: 1.2em;
         color: #333333;
             }
@@ -166,5 +257,63 @@
         color: #555555 ;
         line-height: 1.6em
         	}
+
+
+
+            a{
+        text-decoration: none;
+            } 
+
+        #valuetable1
+          {
+          font-family:"Arial, Helvetica, sans-serif;"
+          width:100%;
+          border-collapse:collapse;
+          }
+
+        #valuetable1 td, #valuetable1 th 
+          {
+          font-size:1em;
+          /*border-bottom:1px solid #FF961E;*/
+          padding:3px 7px 2px 7px;
+          }
+
+        #valuetable1 th 
+          {
+          font-size:1em;
+          text-align:left;
+          padding-top:5px;
+          padding-bottom:4px;
+/*          background-color:#A7C942;*/
+          color:#FF961e;
+          }
+
+        #valuetable1 tr.alt td 
+          {
+          color:#000000;
+/*          background-color:#EAF2D3;*/
+          }
+
+        .table-orangebottomline
+        {
+            border-bottom: 1px solid #FF961E;
+        }
+
+        .table-orangebottomline2
+        {
+            border-bottom: 2px solid #FF961E;
+        }
+
+        .table-text-bold
+        {
+            font-weight: bold;
+            color: #666666;
+        }
+
+        .table-bg-lightorange
+        {
+            background-color: #FFF3E6;
+        }
+
 
     </style>
